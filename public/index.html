@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FBI SYSTEM</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <img src="/img/logoFBI.png" alt="logoFBI">
+  <div class="card bg-dark text-center">
+    <div class="card-body">
+      <form action="/login">
+        <h5 class="card-title text-center">INGRESE SUS CREDENCIALES</h5>
+        <div class="row d-flex align-items-center mb-1">
+          <div class="col-12">Email:</div>
+          <div class="col-7 m-auto"><input type="email" name="email" class="form-control" /></div>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="col-12">Password:</div>
+          <div class="col-8 m-auto" style="position: relative;">
+            <input type="password" name="password" class="form-control" style="display: inline-block; width: 85%;" />
+            <i class="fa fa-eye-slash" id="togglePassword"
+              style="position: absolute; right: 5px; top: 50%; transform: translateY(-50%);"></i>
+          </div>
+        </div>
+        <button class="btn bg-primary text-white mt-3">Ingresar</button>
+      </form>
+    </div>
+  </div>
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
